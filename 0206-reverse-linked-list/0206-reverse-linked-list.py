@@ -28,7 +28,7 @@ class Solution:
             temp = head.next
             tail = temp.next
             head.next = None
-            
+
             while tail != None:
                 temp.next = body
                 body = temp
